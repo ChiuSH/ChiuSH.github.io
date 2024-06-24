@@ -1,0 +1,394 @@
+\documentclass[12pt]{article}
+\usepackage[lmargin=.75in,rmargin=.75in,tmargin=.5in,bmargin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{theorem}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{ {images/} }
+\usepackage{float}
+%\usepackage{psbox}
+\usepackage{epstopdf}
+%\usepackage{ps2pdf}
+
+%\epstopdfsetup{update}
+%\DeclareGraphicsExtensions{.ps}
+%\epstopdfDeclareGraphicsRule{.ps}{pdf}{.pdf}{ps2pdf -dEPSCrop -dNOSAFER #1 \OutputFile}
+
+%\usepackage{auto-pst-pdf}
+%\usepackage{ucs}
+%\usepackage[utf8x]{inputenc}
+
+
+\newtheorem{theorem}{\bf Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theorembodyfont{\rmfamily}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{remark}[theorem]{Remark}
+
+
+\newenvironment{proof}{{\bf Proof:}}{\hfill$\square$}
+%\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%\renewcommand{\thesection}{\arabic{section}}
+%\renewcommand{\thesubsection}{(\alph{subsection})}
+
+
+%\renewcommand{\thesection}{\thechapter .\arabic{section}}
+%\newtheorem{theorem}{\bf Theorem}[section]
+%\newtheorem{lemma}[theorem]{\bf Lemma}
+%\newtheorem{proposition}[theorem]{\bf Proposition}
+%\newtheorem{example}[theorem]{\bf Example}
+%\newtheorem{definition}[theorem]{\bf Definition}
+%\newtheorem{remark}[theorem]{\bf Remark}
+%\newtheorem{corollary}[theorem]{\bf Corollary}
+%\numberwithin{equation}{chapter}
+
+%\renewcommand{\thesection}{\thechapter .\arabic{section}}
+
+\newcommand{\numbering}[1]{\refstepcounter{theorem}\label{#1}{\noindent \bf\ref{#1}}}
+
+\newcommand{\Adb}{\mbox{$\mathbb{A}$}}
+\newcommand{\Bdb}{\mbox{$\mathbb{B}$}}
+\newcommand{\Cdb}{\mbox{$\mathbb{C}$}}
+\newcommand{\Ddb}{\mbox{$\mathbb{D}$}}
+\newcommand{\Edb}{\mbox{$\mathbb{E}$}}
+\newcommand{\Fdb}{\mbox{$\mathbb{F}$}}
+\newcommand{\Gdb}{\mbox{$\mathbb{G}$}}
+\newcommand{\Hdb}{\mbox{$\mathbb{H}$}}
+\newcommand{\Idb}{\mbox{$\mathbb{I}$}}
+\newcommand{\Jdb}{\mbox{$\mathbb{J}$}}
+\newcommand{\Kdb}{\mbox{$\mathbb{K}$}}
+\newcommand{\Ldb}{\mbox{$\mathbb{L}$}}
+\newcommand{\Mdb}{\mbox{$\mathbb{M}$}}
+\newcommand{\Ndb}{\mbox{$\mathbb{N}$}}
+\newcommand{\Odb}{\mbox{$\mathbb{O}$}}
+\newcommand{\Pdb}{\mbox{$\mathbb{P}$}}
+\newcommand{\Qdb}{\mbox{$\mathbb{Q}$}}
+\newcommand{\Rdb}{\mbox{$\mathbb{R}$}}
+\newcommand{\Sdb}{\mbox{$\mathbb{S}$}}
+\newcommand{\Tdb}{\mbox{$\mathbb{T}$}}
+\newcommand{\Udb}{\mbox{$\mathbb{U}$}}
+\newcommand{\Vdb}{\mbox{$\mathbb{V}$}}
+\newcommand{\Wdb}{\mbox{$\mathbb{W}$}}
+\newcommand{\Xdb}{\mbox{$\mathbb{X}$}}
+\newcommand{\Ydb}{\mbox{$\mathbb{Y}$}}
+\newcommand{\Zdb}{\mbox{$\mathbb{Z}$}}
+
+\newcommand{\A}{\mbox{$\mathscr{A}$}}
+%\newcommand{\A}{\mbox{${\mathcal A}$}}
+\newcommand{\B}{\mbox{${\mathcal B}$}}
+\newcommand{\C}{\mbox{${\mathcal C}$}}
+\newcommand{\D}{\mbox{${\mathcal D}$}}
+\newcommand{\E}{\mbox{${\mathcal E}$}}
+\newcommand{\F}{\mbox{${\mathcal F}$}}
+\newcommand{\G}{\mbox{${\mathcal G}$}}
+\renewcommand{\H}{\mbox{${\mathcal H}$}}
+\newcommand{\I}{\mbox{${\mathcal I}$}}
+\newcommand{\J}{\mbox{${\mathcal J}$}}
+\newcommand{\K}{\mbox{${\mathcal K}$}}
+\newcommand{\Ll}{\mbox{${\mathcal L}$}}
+\newcommand{\Mc}{\mbox{${\mathcal M}$}}
+\newcommand{\N}{\mbox{${\mathcal N}$}}
+\renewcommand{\O}{\mbox{${\mathcal O}$}}
+\renewcommand{\P}{\mbox{${\mathcal P}$}}
+\newcommand{\Q}{\mbox{${\mathcal Q}$}}
+\newcommand{\R}{\mbox{${\mathcal R}$}}
+\renewcommand{\S}{\mbox{${\mathcal S}$}}
+\newcommand{\T}{\mbox{${\mathcal T}$}}
+\newcommand{\U}{\mbox{${\mathcal U}$}}
+\newcommand{\V}{\mbox{${\mathcal V}$}}
+\newcommand{\W}{\mbox{${\mathcal W}$}}
+\newcommand{\X}{\mbox{${\mathcal X}$}}
+\newcommand{\Y}{\mbox{${\mathcal Y}$}}
+\newcommand{\Z}{\mbox{${\mathcal Z}$}}
+
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\begin{document}
+
+\title{\Large Math 1431, Calculus I Final Review, Spring 2015.}
+\author{ Shang-Huan Chiu }
+
+\maketitle
+
+
+
+\section{Existence of Limit}
+Given a real function $f(x)$. Then $\lim\limits_{x\to a} f(x)$, the limit of $f(x)$ at $x=a$, exists if 
+$$ \lim\limits_{x\to a^+} f(x) =\lim\limits_{x\to a^-} f(x),$$ so we have
+$$\lim\limits_{x\to a} f(x) = \lim\limits_{x\to a^+} f(x) =\lim\limits_{x\to a^-} f(x).$$
+
+\section{Properties of Limit}
+\subsection{Basic Properties}
+
+Given real functions $f(x)$, $g(x)$. 
+Assume the limits of $f$, $g$ exist at a point $a$, 
+i.e. $\lim\limits_{x\to a} f(x)$, $\lim\limits_{x\to a} g(x)$ exist.
+\begin{itemize}
+\item $\lim\limits_{x\to a}[ f(x) +g(x)] =\lim\limits_{x\to a} f(x) +\lim\limits_{x\to a} g(x)$.
+ 
+\item $\lim\limits_{x\to a}[ f(x)-g(x)] =\lim\limits_{x\to a} f(x)-\lim\limits_{x\to a} g(x)$.
+
+\item $\lim\limits_{x\to a} [f(x)g(x)] = [\lim\limits_{x\to a} f(x)] \cdot [\lim\limits_{x\to a} g(x)].$
+
+\item If $\lim\limits_{x\to a} g(x) \neq 0$, we have $\lim\limits_{x\to a} \dfrac{f(x)}{g(x)} = \dfrac{\lim\limits_{x\to a} f(x)}{\lim\limits_{x\to a} g(x)}$.
+
+\item If $f$ is a continuous function on $\Rdb$, then we have 
+$\lim\limits_{x\to a} f({g(x)})= f({\lim\limits_{x\to a} g(x)}).$
+
+\begin{example}
+Let $f(x) = e^x$. Then $\lim\limits_{x\to a} e^{g(x)}= e^{\lim\limits_{x\to a} g(x)}.$
+\end{example}
+\end{itemize}
+
+\subsection{Special Properity}
+
+Given two polynomials $P(x)$, $Q(x)$. Define $\deg(P)$ be the degree of  polynomial $P(x)$ 
+which is the highest degree of its terms. Then we have
+
+\[
+\lim_{x \to \infty }\dfrac{P(x)}{Q(x)}=
+\begin{cases}
+0,             & \text{ if } \deg(P(x)) < \deg(Q(x)),\\
+\text{Leading Coefficient}, & \text{ if }\deg(P(x)) = \deg(Q(x)),\\
+\infty,       &  \text{ if } \deg(P(x)) > \deg(Q(x)).
+\end{cases}
+\]
+where the leading coefficient is the ratio of the cofficients of the highest degree terms of $P(x)$ and $Q(x)$.
+
+
+\section{Continuity and Discontinuity of A Real Function}
+
+\begin{definition}
+Given a real function $f(x)$. Then $f$ is said to be continuous at a point $a$ if 
+for every $\epsilon >0$ there exists a $\delta >0 $ such that 
+$$|x-a| < \delta  \text{ implies } |f(x)-f(a)| < \epsilon.$$
+\end{definition}
+
+\subsection{Classification}
+To classify the continuity or discontinuity of a real function at a point $a$, 
+we can check the three values
+$$\text{(1)}\lim_{x \to a^+}f(x), \text{ (2)}\lim_{x \to a^-}f(x), \text{ (3)}f(a)$$ 
+and we have the following four conditions:
+\begin{itemize}
+\item If (1), (2), (3) exist and (1) $=$ (2) $=$ (3), then $f$ is {\bf continuous} at $a$.
+
+\item If (1), (2) exist and (1) $=$ (2) $\neq$ (3), then $f$ has a {\bf removable discontinuity} at $a$.
+
+\item If (1), (2) exist and (1) $\neq$ (2), then $f$ has a {\bf jump discontinuity} at $a$.
+
+\item If at least one of the first two values tends to $\infty$ or $-\infty$, 
+then $f$ has an {\bf infinite discontinuity} at $a$.
+
+\end{itemize}
+
+
+\section{The Intermediate Value Theorem}
+
+\begin{theorem}
+If $f(x)$ is continuous on the closed interval $[a,b]$ and $N$ is a value between $f(a)$ and $f(b)$,
+then there is at least one value $c$ in $(a,b)$ such that
+$$f(c)=N.$$
+\end{theorem}
+
+\begin{corollary}[Root finding]
+If $f(x)$ is continuous on the closed interval $[a,b]$ and $f(a)$, $f(b)$ have different signs, that is
+$$f(a) < 0 <f(b), \text{ or } f(b) < 0 <f(a),$$
+then there is at least one value $c$ in $(a,b)$ such that
+$$f(c)=0.$$
+\end{corollary}
+
+\section{The Pinching Theorem}
+\begin{theorem}
+Suppose $f(x), g(x),$ and $h(x)$ are defined in an open interval containing $x=a$.
+If $f(x) \leq g(x) \leq h(x)$  and $\lim\limits_{x\to a} f(x)=\lim\limits_{x\to a} h(x)=L$, then
+$$\lim\limits_{x\to a} g(x)=L.$$
+\end{theorem}
+
+\subsection{Application of Pinching Theorem}
+\begin{itemize}
+\item $\lim\limits_{x\to 0} \dfrac{sin(ax)}{ax}=1.$
+
+\item $\lim\limits_{x\to 0} \dfrac{1-\cos(ax)}{ax}=0.$
+\end{itemize}
+(We also can use L'H$\hat{\text{o}}$pital's rule to find these.)
+
+\section{Sum and Difference Formulas}
+$$ \sin(A \pm B)=\sin(A)\cos(B) \pm \cos(A)\sin(B). $$
+$$ \cos(A \pm B)=\cos(A)\cos(B) \mp \sin(A)\sin(B).$$
+
+\section{Derivative}
+
+\subsection{Definition of derivative}
+
+A function $f(x)$ is differentiable at $x$ if and only if 
+$$\lim\limits_{ h \to 0} \dfrac{f(x+h)-f(x)}{h}$$
+exists. We denote
+$$f'(x)=\lim\limits_{ h \to 0} \dfrac{f(x+h)-f(x)}{h}$$
+and we refer to $f'(x)$ as the derivative of $f$ at $x$.
+
+
+
+\subsection{Product Rule}
+Assume $f(x),g(x)$ are differentiable. Then
+$$\frac{d}{dx}[f(x)\cdot g(x)]=f'(x)\cdot g(x) + f(x)\cdot g'(x).$$
+
+\subsection{Quotient Rule}
+Assume $f(x),g(x)$ are differentiable. Then
+$$ \frac{d}{dx}\left[\dfrac{f(x)}{g(x)}\right]=\dfrac{g(x)f'(x)-f(x)g(x)'}{[g(x)]^2}.$$
+(lo D-hi minus hi D-lo)
+
+\subsection{Chain Rule}
+Assume $f(x),g(x)$ are differentiable. Then 
+$$\frac{d}{dx}[f(g(x))]=f'(g(x))g'(x) $$
+
+Application of Chain Rule:
+Assume $u(x)$ is differentiable. 
+\begin{figure}[htb]\large
+ %\begin{minipage}[b]{textwidth} 
+  \renewcommand\arraystretch{1.5}%表格的上下高度
+%\begin{table}[H]\large%字體大小  
+\centering 
+\begin{tabular}{|c|c|}
+\hline
+Function                                 & Derivative of given function \\ \hline
+$[u(x)]^n$, $n \neq 0$ 	& $n \cdot u'(x) [u(x)]^{n-1}$                   \\ \hline
+$\ln u(x)$                                       & $\dfrac{u'(x)}{u(x)}$                    \\ \hline
+$e^{u(x)}$                                       & $u'(x) e^{u(x)}$                    \\ \hline
+$\sin(u(x))$                                       & $u'(x)\cos(u(x))$                    \\ \hline
+$\cos(u(x))$                                       & $-u'(x)\sin(u(x))$                   \\ \hline
+$\tan(u(x))$                                       & $u'(x)\sec^2(u(x))$                  \\ \hline
+$\sec(u(x))$                                       & $u'(x)\sec(u(x)) \tan(u(x))$            \\ \hline
+$\cot(u(x))$                                       & $-u'(x)\csc^2(u(x))$                 \\ \hline
+$\csc(u(x))$                                       & $-u'(x)\csc(u(x)) \cot(u(x))$           \\ \hline
+$\sinh(u(x))$                                       & $u'(x)\cosh(u(x))$                    \\ \hline
+$\cosh(u(x))$                                       & $u'(x)\sinh(u(x))$                   \\ \hline
+ $\arcsin(u(x))$                                      & $\dfrac{u'(x)}{\sqrt{1-[u(x)]^2}}$                  \\ \hline
+ $\arctan(u(x))$                                                      &   $\dfrac{u'(x)}{1+[u(x)]^2}$     \\ \hline
+ $\arcsec(u(x))$                                               & $\dfrac{u'(x)}{|u(x)| \sqrt{[u(x)]^2-1}}$                             \\ \hline
+ $a^{u(x)}$,$a>0$                                              &  $ \ln (a) u'(x)a^{u(x)} $                            \\ \hline
+
+
+\end{tabular}
+\caption{Differentiation Table} 
+%\end{table}% 
+\end{figure}
+
+(Please check the test4 review sheet table1)
+
+\clearpage 
+\section{Special Formulas for Areas and Volumes}
+\begin{itemize}
+\item Area of a {\bf circle} with a radius $r$: $$A=\pi r^2.$$
+
+\item Volume of a {\bf cone} with height $h$ and radius of base $r$: $$V=\frac{1}{3} \pi r^2 h.$$
+
+\item Volume of a {\bf ball} with radius $r$:
+$$V=\frac{4}{3} \pi r^3.$$
+
+\item Area of {\bf sphere} with radius $r$:
+$$S= 4 \pi r^2.$$
+
+\item Surface area of {\bf cylinder} with height $h$ and radius of base $r$:
+$$ S=2\pi r h +2 \pi r^2.$$ 
+
+
+\end{itemize}
+
+\section{Mean Value Theorem}
+\begin{theorem}[Mean Value Theorem]
+If $f$ is continuous on a $[a,b]$ and differentiable on $(a,b)$,
+then there exists a number $c$ in $(a,b)$ such that
+$$ f'(c)=\dfrac{f(b)-f(a)}{b-a}.$$
+\end{theorem}
+
+\begin{theorem}[Rolle's Theorem]
+Let $f$ be continuous on a $[a,b]$ and differentiable on $(a,b)$.
+If $f(a)=f(b)$ then there is at least one number $c$ in $(a,b)$ such that
+$$f'(c)=0$$
+\end{theorem}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

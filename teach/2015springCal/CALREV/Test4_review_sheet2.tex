@@ -1,0 +1,241 @@
+\documentclass[12pt]{article}
+\usepackage[lmargin=.75in,rmargin=.75in,tmargin=.5in,bmargin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{theorem}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{ {images/} }
+\usepackage{float}
+%\usepackage{psbox}
+\usepackage{epstopdf}
+%\usepackage{ps2pdf}
+
+%\epstopdfsetup{update}
+%\DeclareGraphicsExtensions{.ps}
+%\epstopdfDeclareGraphicsRule{.ps}{pdf}{.pdf}{ps2pdf -dEPSCrop -dNOSAFER #1 \OutputFile}
+
+%\usepackage{auto-pst-pdf}
+%\usepackage{ucs}
+%\usepackage[utf8x]{inputenc}
+
+\usepackage{relsize}
+
+\newtheorem{theorem}{\bf Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theorembodyfont{\rmfamily}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{remark}[theorem]{Remark}
+
+
+\newenvironment{proof}{{\bf Proof:}}{\hfill$\square$}
+%\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%\renewcommand{\thesection}{\arabic{section}}
+%\renewcommand{\thesubsection}{(\alph{subsection})}
+
+
+%\renewcommand{\thesection}{\thechapter .\arabic{section}}
+%\newtheorem{theorem}{\bf Theorem}[section]
+%\newtheorem{lemma}[theorem]{\bf Lemma}
+%\newtheorem{proposition}[theorem]{\bf Proposition}
+%\newtheorem{example}[theorem]{\bf Example}
+%\newtheorem{definition}[theorem]{\bf Definition}
+%\newtheorem{remark}[theorem]{\bf Remark}
+%\newtheorem{corollary}[theorem]{\bf Corollary}
+%\numberwithin{equation}{chapter}
+
+%\renewcommand{\thesection}{\thechapter .\arabic{section}}
+
+\newcommand{\numbering}[1]{\refstepcounter{theorem}\label{#1}{\noindent \bf\ref{#1}}}
+
+\newcommand{\Adb}{\mbox{$\mathbb{A}$}}
+\newcommand{\Bdb}{\mbox{$\mathbb{B}$}}
+\newcommand{\Cdb}{\mbox{$\mathbb{C}$}}
+\newcommand{\Ddb}{\mbox{$\mathbb{D}$}}
+\newcommand{\Edb}{\mbox{$\mathbb{E}$}}
+\newcommand{\Fdb}{\mbox{$\mathbb{F}$}}
+\newcommand{\Gdb}{\mbox{$\mathbb{G}$}}
+\newcommand{\Hdb}{\mbox{$\mathbb{H}$}}
+\newcommand{\Idb}{\mbox{$\mathbb{I}$}}
+\newcommand{\Jdb}{\mbox{$\mathbb{J}$}}
+\newcommand{\Kdb}{\mbox{$\mathbb{K}$}}
+\newcommand{\Ldb}{\mbox{$\mathbb{L}$}}
+\newcommand{\Mdb}{\mbox{$\mathbb{M}$}}
+\newcommand{\Ndb}{\mbox{$\mathbb{N}$}}
+\newcommand{\Odb}{\mbox{$\mathbb{O}$}}
+\newcommand{\Pdb}{\mbox{$\mathbb{P}$}}
+\newcommand{\Qdb}{\mbox{$\mathbb{Q}$}}
+\newcommand{\Rdb}{\mbox{$\mathbb{R}$}}
+\newcommand{\Sdb}{\mbox{$\mathbb{S}$}}
+\newcommand{\Tdb}{\mbox{$\mathbb{T}$}}
+\newcommand{\Udb}{\mbox{$\mathbb{U}$}}
+\newcommand{\Vdb}{\mbox{$\mathbb{V}$}}
+\newcommand{\Wdb}{\mbox{$\mathbb{W}$}}
+\newcommand{\Xdb}{\mbox{$\mathbb{X}$}}
+\newcommand{\Ydb}{\mbox{$\mathbb{Y}$}}
+\newcommand{\Zdb}{\mbox{$\mathbb{Z}$}}
+
+\newcommand{\A}{\mbox{$\mathscr{A}$}}
+%\newcommand{\A}{\mbox{${\mathcal A}$}}
+\newcommand{\B}{\mbox{${\mathcal B}$}}
+\newcommand{\C}{\mbox{${\mathcal C}$}}
+\newcommand{\D}{\mbox{${\mathcal D}$}}
+\newcommand{\E}{\mbox{${\mathcal E}$}}
+\newcommand{\F}{\mbox{${\mathcal F}$}}
+\newcommand{\G}{\mbox{${\mathcal G}$}}
+\renewcommand{\H}{\mbox{${\mathcal H}$}}
+\newcommand{\I}{\mbox{${\mathcal I}$}}
+\newcommand{\J}{\mbox{${\mathcal J}$}}
+\newcommand{\K}{\mbox{${\mathcal K}$}}
+\newcommand{\Ll}{\mbox{${\mathcal L}$}}
+\newcommand{\Mc}{\mbox{${\mathcal M}$}}
+\newcommand{\N}{\mbox{${\mathcal N}$}}
+\renewcommand{\O}{\mbox{${\mathcal O}$}}
+\renewcommand{\P}{\mbox{${\mathcal P}$}}
+\newcommand{\Q}{\mbox{${\mathcal Q}$}}
+\newcommand{\R}{\mbox{${\mathcal R}$}}
+\renewcommand{\S}{\mbox{${\mathcal S}$}}
+\newcommand{\T}{\mbox{${\mathcal T}$}}
+\newcommand{\U}{\mbox{${\mathcal U}$}}
+\newcommand{\V}{\mbox{${\mathcal V}$}}
+\newcommand{\W}{\mbox{${\mathcal W}$}}
+\newcommand{\X}{\mbox{${\mathcal X}$}}
+\newcommand{\Y}{\mbox{${\mathcal Y}$}}
+\newcommand{\Z}{\mbox{${\mathcal Z}$}}
+
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\begin{document}
+
+%\title{\Large Math 1431, Calculus I Test 4 Review, Spring 2015.}
+%\author{ Shang-Huan Chiu }
+
+%\maketitle
+
+
+
+
+
+\section{Riemann Sum}
+Given a continuous function $f$ and a partition $P=\{x_0=a, x_1, x_2, \cdots, x_{n-1}, x_n=b\}$ on $[a,b]$.
+Then we can estimate $\int_{a}^{b} f(x)\, dx$ by Riemann Sum:
+$$\sum [(\text{ length of the subinterval})\times (\text{ value of $f$ on this subinterval})]$$
+\begin{itemize}
+\item[(1)] Upper sum ($U_f$)
+$$ U_f=\sum [(\text{ length of the subinterval})\times (\text{ maximum value of $f$ on this subinterval})]$$
+
+\item[(2)] Lower sum ($L_f$)
+$$ L_f=\sum [(\text{ length of the subinterval})\times (\text{ minimum value of $f$ on this subinterval})]$$
+
+\item[(3)] $U_f \geq L_f$
+
+\item[(2)] Specific points:(left endpoint, right endpoint, midpoint) 
+$$ \text{ Sum }=\sum [(\text{ length of the subinterval})\times (\text{ specific point value of $f$ on this subinterval})]$$
+
+\end{itemize}
+\section{Basic Integration Properties}
+Assume $f,g$ are continuous on $[a,b]$ and $\alpha, \beta$ are constants.
+\begin{itemize}
+\item[(1)] If $a<c<b$, then
+$$\int_{a}^{c} f(x)\, dx+\int_{c}^{b} f(x)\, dx=\int_{a}^{b} f(x)\, dx.$$
+
+\item[(2)] The integration value will change of sign if we integrate in the different directions:
+$$\int_{b}^{a} f(x)\, dx=-\int_{a}^{b} f(x)\, dx.$$
+
+\item[(3)] The integral from any number to itself is defined to be zero:
+$$\int_{c}^{c} f(x)\, dx=0.$$
+
+\item[(4)] Linearity of integration:
+
+$$\int_{a}^{b} \alpha f(x) +\beta g(x)\, dx=\alpha \int_{a}^{b} f(x)\, dx + \beta \int_{a}^{b} g(x)\, dx.$$
+
+
+
+\end{itemize}
+
+\clearpage
+
+\section{ Fundamental Theorem of Calculus}
+
+\subsection{ First Fundamental Theorem of Calculus}
+\begin{theorem}
+Let $f$ be continuous on $[a,b]$. The function $F$ defined on $[a,b]$ by 
+$$F(x)=\int_{a}^{x} f(t)\, dt$$
+is continuous on $[a,b]$, differentiable on $(a,b)$, and has derivative
+$F'(x)=f(x)$ for all $x$ in $(a,b)$.
+\end{theorem}
+
+Assume a function $f$ is defined as above in the theorem and function $u(x), v(x)$ are differentiable, we have
+\begin{itemize}
+\item[(1)] If $F(x)=\int_{a}^{x} f(t)\, dt$, then $$F'(x)=f(x).$$
+
+\item[(2)] If $F(x)=\int_{x}^{a} f(t)\, dt$, so $F(x)=-\int_{a}^{x} f(t)\, dt$, then
+$$F'(x)=-f(x).$$
+
+\item[(3)] If $F(x)=\int_{a}^{u(x)} f(t)\, dt$, then 
+$$F'(x)=u'(x)\cdot f(u(x)).$$
+
+\item[(3)] If $F(x)=\int_{v(x)}^{u(x)} f(t)\, dt$, there is a constant $c$ such that
+$$F(x)=\int_{c}^{u(x)} f(t)\, dt- \int_{c}^{v(x)} f(t)\, dt$$
+then we have 
+$$F'(x)=u'(x)\cdot f(u(x))- v'(x)\cdot f(v(x)).$$
+\end{itemize}
+
+\subsection{ Second Fundamental Theorem of Calculus}
+\begin{definition}
+Let $f$ be continuous on $[a,b]$. A function is called an antiderivative for $f$ on $[a,b]$ if 
+$$F \text{ is continuous on } [a,b] \text{ and } F'(x)=f(x) \text{ for all } x \in (a,b).$$
+\end{definition}
+
+\begin{theorem}
+Let $f$ be continuous on $[a,b]$. If $F$ is any antiderivative for $f$ on $[a,b]$, then
+$$\int_{a}^{b} f(t)\, dt = F(b)-F(a).$$
+\end{theorem}
+
+\section{Differential}
+Given $f(a+h)$. we can estimate $f(a+h) -f(a)$ by differential $df$:
+
+$$f(a+h)-f(a) \approx df= f'(a)\cdot h,$$ then
+$$f(a+h) \approx f(a)+ f'(a)\cdot h.$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
