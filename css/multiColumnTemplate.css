@@ -69,7 +69,7 @@ img.floatLeft {
 .primary_header {
 	width: 100%;
 	/*background-color: #000000;*/
-    background-color:#653819;
+    background-color:#007fa3;
 	padding-top: 5px;
 	padding-bottom: 0px;
 	clear: left;
@@ -81,7 +81,7 @@ img.floatLeft {
 	padding-top: 5px;
 	padding-bottom: 10px;
 	/*background-color: #000000;*/
-    background-color: #653819;
+    background-color: #007fa3;
 	clear: left;
 }
 .container .secondary_header ul {
