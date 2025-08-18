@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>2025 Fall Precalculus</title>
+    <meta content="">
+    <style>
+    /* unvisited link */
+a:link {
+	text-decoration: none;
+    color: #917436;
+}
+
+/* visited link */
+/* a:visited { */
+/*    color: green; */
+/* } */
+
+/* mouse over link */
+a:visited {
+    color: #8C6E25;
+}
+a:hover {
+    color: #717070;
+	text-decoration: none;
+}
+.center {
+}
+</style>
+  </head>
+  <body>
+      <link href="../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+      <div class="container"> 
+<header>
+	<div class="primary_header"><img src="../images/NewYorkCityCollegeOfTechnology_white copy.png" alt="" class="floatLeft">
+<h1 class="title">Shang-Huan Chiu</h1>
+</div>
+    <nav class="secondary_header" id="menu">
+<ul>
+<tbody><tr>
+<li><a class="title" style="color: #ffffff" href="https://chiush.github.io/index.html">Welcome </a></li>
+        <li><a class="title" style="color: #ffffff" href="https://chiush.github.io/research.html">Research </a></li>
+        <li><a class="title" style="color: #ffffff" href="https://chiush.github.io/teaching.html">Teaching </a></li>
+        <li><a class="title" style="color: #ffffff" href="https://chiush.github.io/publication.html">Publications</a></li>
+        <li><a class="title" style="color: #ffffff" href="https://chiush.github.io/CV.pdf">CV </a></li>
+</tr>
+      </ul>
+    </nav>
+  </header>
+      
+<h2> MAT1375: Precalculus </h2>
+<hr>
+<article class="left_article">	
+    <table width="100%">
+      <tbody>
+        <tr>
+          <td align="left">
+Welcome to the home page for Fall 2024, MAT1375: Precalculus!<br>
+<br>
+<b>Instructor:</b> Prof. Shang-Huan Chiu<br>
+<br>
+<b>Email:</b> <a href="mailto:shang-huan.chiu40@citytech.cuny.edu">shang-huan.chiu40[at]citytech[dot]cuny[dot]edu</a><br>
+<br>
+<b>Lecture Time:</b> 8:00 am - 9:40 am on Tuesdays and Thursdays<br> 
+<br>
+<b>Room:</b> TBA<br>
+<br>
+<b>Office Hours:</b> 1:30 pm - 3:30pm on Tuesdays or by appointment<br>
+<br>
+<b>Textbook:</b> <a href="https://openlab.citytech.cuny.edu/mat1375coursehub/files/2024/05/Precalculus.pdf" target="_blank" rel="noopener noreferrer">
+	Precalculus by Thomas Tradler and Holly Carley, Third Edition </a><br>
+<br>
+
+<b>Course Description:</b> MAT1375 is an introduction of functions and it is the foundation of Mathematics. 
+		  Mathematicians study everything about the functions and use them to describe complicated phenomenon in nature.
+		MAT1375 is the beginning of the function-study journey and topics include polynomial
+functions, inverse functions, radical functions, rational functions,
+trigonometric functions, exponential and logarithmic functions. 
+		  Besides, we will introduce how to solve inequalities, 
+how to solve trigonometric equations and identities involving sum, double and half-angle formulas,
+		  and elements of vectors and complex numbers.
+		  <br>
+<br>
+<b>Prerequisites:</b> MAT 1275 or MAT 1275CO OR Meet the Math Placement for MAT 1375.<br>
+<br>
+<details>
+   <summary>		  
+<b>Evaluation:</b> Your final grade will be calculated as:<br>
+Three in-class tests (50% total) + one in-class Final Exam (25%) + in-class quizzes (15%) + homework (10%) + class participation (5%).
+   </summary>
+	<p><b>Three in-class tests (50%):</b><br>
+There will be three exams. If you miss a test for a verifiable reason (for example, illness or family
+emergency), you must notify me as soon as possible and provide a written verification from an appropriate 
+authority (not a family member), otherwise you will score 0 for that test. 
+Personal travel is not a valid excuse. Your lowest test grade will NOT be dropped, 
+		but it will only count for 10% while the other two grades will count for a total of 40% of your final grade.
+You are expected to take all tests. There will be <b>no make-up test</b> under any circumstance. 
+		Any missing test will be counted as <b>zero</b>. <b>No extra time</b> will be given in tests to students who arrive late.
+          <br><br>
+    <b>One in-classFinal Exam (25%):</b><br>
+The final exam will be a one-session exam based on the whole term. It will be given on the last day of
+classes, Thursday, <b>December 19, 8:00 am - 9:40 am</b>. 
+It is the responsibility of each student to be available at the time of the examination. 
+You <b>must</b> take the final exam in order to pass the course.
+		<br><br>
+   <b>In-class quizzes (15%):</b><br>
+      The quiz will be given in the first 10 - 15 mins of each lecture when it is not a test or exam day. 
+		The grade will be evenly distributed over all the quizzes. 
+		There will be <b>no make-up quiz</b> under any circumstance. 
+		Any missing quiz will be counted as <b>zero</b>.
+		<b>No extra time</b> will be given in quizzes to students who arrive late.
+		<br><br>
+  <b>Class participation (5%):</b><br>	
+    	Class participation will count for 10% of the final grade. The purpose of these discussions
+is to gain practice at analyzing problems and communicating effectively. 
+		You will get a classwork sheet in each class and you will finish the sheet 
+		and <b>turn in the sheet</b> to the instructor at the end of class. 
+          <br>
+	</p>
+</details>
+<br>
+<br>
+<b>Homework (10%):</b> You can find the Homework questions on 
+	<a href="https://openlab.citytech.cuny.edu/mat1375coursehub/files/2024/05/Precalculus.pdf" target="_blank" rel="noopener noreferrer">
+		textbook</a> and the selected question numbers and schedule on
+	<a href="https://www.citytech.cuny.edu/mathematics/docs/courses/MAT1375.pdf" target="_blank" rel="noopener noreferrer">
+		Course Outline</a>.
+	The homeworks will be collected in person before the class starts at the due date. <b>E-files are not acceptable<b>. Only one or two questions will be graded in each homework, 
+  so please finish every question to get the full credit. 
+	(You also can find extra questions on the <a href="https://mathww.citytech.cuny.edu/webwork2/Guest_Access_-_MAT1375?effectiveUser=practice7" target="_blank" rel="noopener noreferrer">
+	WeBWorK (Please use the Guest login)</a> if you need more practices.) 	  
+		  
+<br>
+<br>
+<b>Attendance policy:</b> You are expected to attend all classes and are responsible for all the material covered. 
+		  Attendance is required and will be taken at the beginning of each class. 
+		  Lateness and students leaving before the end of the class period will be recorded.
+<br>
+<br>
+<b>Available help:</b><br>
+• You are encouraged to come to my office hours for help.<br>
+<!• If you have a question about a homework problem, I prefer you to post your question on the Discussion Board of 
+		  brightspace (and leave the email for personal and individual questions). I will log into brightspace 
+		  every day during the weekdays to check the Discussion Board and to moderate ongoing discussions.>
+<br>
+• <a href="https://openlab.citytech.cuny.edu/mat1375coursehub/lessons/" target="_blank" rel="noopener noreferrer">
+		  The MAT 1375 course hub</a>
+	    contains lots of resources including solved problems, class notes and videos.
+<br>
+<br>
+<b>Special Accommodations:</b> 
+		  If you need any accommodation, please take your request to the Center For Student Accessibility. 
+		  Please visit their
+		  <a href="https://www.citytech.cuny.edu/accessibility/" target="_blank" rel="noopener noreferrer">
+		  website</a> 
+		  for more information.
+<br>
+<br>		  
+<b>Academic Integrity: </b> Academic integrity is an important component of any academic set up. Any work that you submit must be your own.
+		  Any student who uses devices, software, websites, or resources other than the ones permitted 
+		  on this syllabus and /or on specific assignments will be found in violation of CityTech’s Academic Integrity
+		  Policy and will be reported to the Academic Integrity Committee. Consequences may include probation, 
+		  failing grades, suspension and expulsion. Please check 
+		  <a href="https://www.citytech.cuny.edu/current-student/docs/StudentHandbook.pdf" target="_blank" rel="noopener noreferrer">
+		City Tech Student Handbook</a> for more information.  
+<br>
+<br>	
+
+</td></tr></tbody></table>
+</article>
+<article class="right_article">
+	<table width="100%">
+      <tbody>
+        <tr>	
+	<td align="right">
+<video width="300" height="300" loop autoplay muted >
+<source src="../video/unit_circle.mp4" type="video/mp4">
+</video>		
+<h3>Resources and quick links</h3>
+ Syllabus<br><br>
+ <a href="https://www.citytech.cuny.edu/mathematics/docs/courses/MAT1375.pdf" target="_blank" rel="noopener noreferrer">
+		Course Outline</a><br><br>		
+ <a href="https://openlab.citytech.cuny.edu/mat1375coursehub/files/2024/05/Precalculus.pdf" target="_blank" rel="noopener noreferrer">
+	Textbook</a><br><br>
+<a href="https://mathww.citytech.cuny.edu/webwork2/Guest_Access_-_MAT1375?effectiveUser=practice7" target="_blank" rel="noopener noreferrer">
+	WeBWorK (Please use the Guest login)</a><br><br>		
+<a href="https://www.citytech.cuny.edu/mathematics/docs/review/MAT1375FinalReview.pdf" target="_blank" rel="noopener noreferrer">
+	Final Exam Review</a><br><br>
+<a href="https://www.desmos.com/calculator" target="_blank" rel="noopener noreferrer">
+	Desmos Calculator</a><br><br>		
+<a href="2025fallPreCal/2025FallMat1375CQ.html" target="_blank" rel="noopener noreferrer">
+	Classwork, Quiz, and Homework</a><br><br>	
+<a href="https://www.citytech.cuny.edu/registrar/docs/fall_2025_meeting_grid.pdf" target="_blank" rel="noopener noreferrer">
+	Academic Calendar</a><br><br>	
+<a href="" target="_blank" rel="noopener noreferrer">		
+	Perkins Virtual tutoring schedule (TBA)</a>	
+	</td>	
+	</td>
+	</tr>
+      </tbody>
+	</table>
+</article>
+</div>
+  </body>
+</html>
